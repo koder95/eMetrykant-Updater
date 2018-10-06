@@ -1,0 +1,40 @@
+<component name="libraryTable">
+  <library name="GitHub_API">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/bridge-method-annotation-1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-databind-2.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-core-2.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-annotations-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-lang3-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/github-api-1.93.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-codec-1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-3.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-2.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-io-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../#LIBS/GitHub API/okhttp-3.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/bridge-method-annotation-1.17-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-codec-1.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-io-1.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-lang3-3.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/github-api-1.93-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-annotations-2.9.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-core-2.9.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-2.7.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-3.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/bridge-method-annotation-1.17-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-codec-1.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-io-1.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/commons-lang3-3.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/github-api-1.93-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-annotations-2.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-core-2.9.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/jackson-databind-2.9.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-2.7.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-3.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

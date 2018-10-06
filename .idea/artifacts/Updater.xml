@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Updater">
+    <output-path>$PROJECT_DIR$/out/artifacts/Updater</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="alias" value="" />
+        <option name="appClass" value="pl.koder95.eme.updater.Main" />
+        <option name="description" value="" />
+        <option name="enabledSigning" value="true" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="keystore" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Aktualizator eMetrykant" />
+        <option name="vendor" value="Kamil Mularski" />
+        <option name="version" value="1.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="GitHub_API" />
+      </element>
+      <element id="archive" name="Updater.jar">
+        <element id="module-output" name="eMetrykant Updater" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

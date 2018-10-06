@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="333.0" prefWidth="600.0" spacing="10.0" stylesheets="@FXML.css" xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.koder95.eme.updater.FXMLController">
+   <opaqueInsets>
+      <Insets/>
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="10.0" top="10.0"/>
+   </padding>
+   <Label text="Aktualizator eMetrykant" textFill="#40bf00">
+      <font>
+         <Font name="Bodoni MT Condensed Bold" size="31.0"/>
+      </font>
+   </Label>
+   <BorderPane prefHeight="112.0" prefWidth="600.0" style="-fx-background-color: #128080;">
+      <right>
+         <Label fx:id="basicVersionLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" nodeOrientation="LEFT_TO_RIGHT"
+                style="-fx-text-fill: #a0ffff;" text="v0.1.0" textFill="#808080" underline="true"
+                BorderPane.alignment="CENTER">
+            <font>
+               <Font name="Bookman Old Style Bold" size="14.0"/>
+            </font>
+         </Label>
+      </right>
+      <left>
+         <VBox alignment="CENTER" prefHeight="106.0" prefWidth="45.0" BorderPane.alignment="CENTER">
+            <ProgressIndicator fx:id="basicProgress" disable="true" prefHeight="40.0" prefWidth="75.0"
+                               progress="0.0"/>
+         </VBox>
+      </left>
+      <center>
+         <Label style="-fx-text-fill: #a0ffff;" text="eMetrykant (podstawowy program)"
+                textFill="#808080" BorderPane.alignment="CENTER">
+            <font>
+               <Font name="Bookman Old Style Bold" size="14.0"/>
+            </font>
+         </Label>
+      </center>
+      <VBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </VBox.margin>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </padding>
+   </BorderPane>
+   <BorderPane fx:id="converter" layoutX="10.0" layoutY="48.0" prefHeight="112.0" prefWidth="600.0"
+               style="-fx-background-color: #801280;">
+      <left>
+         <VBox alignment="CENTER" prefHeight="106.0" prefWidth="45.0" BorderPane.alignment="CENTER">
+            <ProgressIndicator fx:id="convProgress" disable="true" progress="0.0"/>
+         </VBox>
+      </left>
+      <center>
+         <Label style="-fx-text-fill: #ffa0ff;"
+                text="eMetrykant Converter (program do konwertowania danych)" textFill="#808080"
+                BorderPane.alignment="CENTER">
+            <font>
+               <Font name="Bookman Old Style Bold" size="14.0"/>
+            </font>
+         </Label>
+      </center>
+      <right>
+         <Label fx:id="converterVersionLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" nodeOrientation="LEFT_TO_RIGHT"
+                style="-fx-text-fill: #ffa0ff;" text="v0.0.1" textFill="#808080" underline="true"
+                BorderPane.alignment="CENTER">
+            <font>
+               <Font name="Bookman Old Style Bold" size="14.0"/>
+            </font>
+         </Label>
+      </right>
+      <VBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </VBox.margin>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </padding>
+   </BorderPane>
+   <StackPane layoutX="10.0" layoutY="258.0" prefWidth="600.0" VBox.vgrow="SOMETIMES"/>
+   <HBox alignment="CENTER" prefHeight="29.0" prefWidth="600.0">
+      <opaqueInsets>
+         <Insets/>
+      </opaqueInsets>
+      <Button defaultButton="true" mnemonicParsing="false" onAction="#checkVersions" text="Sprawdź wersje"/>
+      <Button fx:id="update" disable="true" mnemonicParsing="false" onAction="#update" text="Aktualizuj"/>
+   </HBox>
+</VBox>
