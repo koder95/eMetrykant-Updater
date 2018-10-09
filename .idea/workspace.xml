@@ -7,76 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ffbfd2b-ca5d-4cef-9fdd-4ec595dfda84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Updater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kamil.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/GitHub_API.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eMetrykant Updater.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/bridge-method-annotation-1.17-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/bridge-method-annotation-1.17-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/bridge-method-annotation-1.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-codec-1.7-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-codec-1.7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-codec-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-io-1.4-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-io-1.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-lang3-3.7-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-lang3-3.7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/commons-lang3-3.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/github-api-1.93-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/github-api-1.93-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/github-api-1.93.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-annotations-2.9.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-annotations-2.9.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-core-2.9.2-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-core-2.9.2-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-core-2.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-databind-2.9.2-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-databind-2.9.2-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/jackson-databind-2.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-2.7.5-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-2.7.5-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-2.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-3.9.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-3.9.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GitHub_API/okhttp-urlconnection-3.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/configs/Run_as_WebStart.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/configs/Run_in_Browser.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/jfx-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/configs/Run_as_WebStart.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/configs/Run_in_Browser.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXMLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/GitHubConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/GitRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/GitUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/JarAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/Preloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/Version.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/services/PreloaderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/services/SequenceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ExtractZip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/koder95/eme/updater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/koder95/eme/updater/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/Version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ExtractZip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ExtractZip.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,42 +30,47 @@
     <session id="1444238702">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="118" />
-          <entry key="fxml" value="35" />
+          <entry key="css" value="198" />
+          <entry key="fxml" value="42" />
           <entry key="gitignore" value="40" />
-          <entry key="java" value="19639" />
+          <entry key="java" value="20664" />
           <entry key="md" value="2178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="118" />
-          <entry key="JAVA" value="19639" />
+          <entry key="CSS" value="198" />
+          <entry key="JAVA" value="20664" />
           <entry key="Markdown" value="2178" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="XML" value="35" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="class" value="6" />
-          <entry key="css" value="2" />
-          <entry key="fxml" value="3" />
+          <entry key="css" value="3" />
+          <entry key="fxml" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="214" />
+          <entry key="java" value="222" />
           <entry key="md" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="6" />
@@ -136,12 +79,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="CSS" value="2" />
-          <entry key="JAVA" value="214" />
+          <entry key="CSS" value="3" />
+          <entry key="JAVA" value="222" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -151,30 +94,27 @@
     <favorites_list name="eMetrykant Updater" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="277">
+              <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2213#2214#0" expanded="true" />
-                <element signature="e#2270#2271#0" expanded="true" />
-                <element signature="e#2568#2569#0" expanded="true" />
-                <element signature="e#2641#2642#0" expanded="true" />
-                <element signature="e#2722#2723#0" expanded="true" />
-                <element signature="e#2792#2793#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/Preloader.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/FXMLController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1678">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="297">
+              <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ZipExtracter.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/services/ZipExtractor.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/VersionState.java" />
-        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.css" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadTask.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ZipExtractingTask.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/GitHubDriver.java" />
@@ -212,22 +151,23 @@
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/preloader/ExtractZip.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/services/DownloadService.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/preloader/DownloadZip.java" />
-        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.fxml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/Version.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/GitHubConnection.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/JarAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ExtractZip.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/GitUser.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/GitRepository.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadZip.java" />
-        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXMLController.java" />
-        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadFile.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/services/SequenceService.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/services/PreloaderService.java" />
-        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/Main.java" />
         <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/Preloader.java" />
+        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.css" />
+        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadFile.java" />
+        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/Version.java" />
+        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ExtractZip.java" />
+        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.fxml" />
+        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/FXMLController.java" />
+        <option value="$PROJECT_DIR$/src/pl/koder95/eme/updater/Main.java" />
       </list>
     </option>
   </component>
@@ -237,6 +177,26 @@
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>EmptyStatementBody</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -245,46 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="updater" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="updater" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="updater" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -375,7 +296,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -398,10 +318,65 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="updater" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="updater" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eMetrykant Updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="updater" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eMetrykant Updater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538854490376" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="emetrykant_updater" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539090698791" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/pl/koder95/eme/updater" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Oracle/JavaFX Scene Builder 2.0/JavaFX Scene Builder 2.0.exe" />
     <property name="project.structure.last.edited" value="Project" />
@@ -505,9 +480,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.28895614" />
       <window_info id="Structure" order="1" sideWeight="0.50537634" side_tool="true" weight="0.2677761" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,7 +492,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5034325" side_tool="true" weight="0.2647504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -596,13 +572,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ref/Finalizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11764">
@@ -621,10 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="e#2560#2561#0" expanded="true" />
-            <element signature="e#2630#2631#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="583" selection-start-line="583" selection-end-line="583" />
-          <folding>
-            <element signature="e#20157#20158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,10 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="305" selection-start-line="305" selection-end-line="305" />
-          <folding>
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3425#3426#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,43 +681,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitHubDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/Version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="220" column="9" lean-forward="true" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ProgramsLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitHubDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/Version.java" />
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ProgramsLoader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/scene/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="1564" column="22" selection-start-line="1564" selection-start-column="22" selection-end-line="1564" selection-end-column="22" />
-          <folding>
-            <element signature="e#64639#64640#0" expanded="true" />
-            <element signature="e#64683#64684#0" expanded="true" />
-            <element signature="e#65558#65559#0" expanded="true" />
-            <element signature="e#65618#65619#0" expanded="true" />
-            <element signature="e#67893#67894#0" expanded="true" />
-            <element signature="e#67942#67943#0" expanded="true" />
-            <element signature="e#67983#67984#0" expanded="true" />
-            <element signature="e#68047#68048#0" expanded="true" />
-            <element signature="e#68110#68111#0" expanded="true" />
-            <element signature="e#68177#68178#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,41 +698,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/preloader/DownloadZip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/preloader/ExtractZip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/VersionState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/preloader/DownloadZip.java" />
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/preloader/ExtractZip.java" />
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/VersionState.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,41 +712,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-361">
           <caret line="4426" column="25" selection-start-line="4426" selection-start-column="25" selection-end-line="4426" selection-end-column="25" />
-          <folding>
-            <element signature="e#175306#175307#0" expanded="true" />
-            <element signature="e#175349#175350#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/JarVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/CheckingRequiredFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/JarVersion.java" />
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/CheckingRequiredFile.java" />
     <entry file="file://$PROJECT_DIR$/.idea/libraries/GitHub_API.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/built-jar.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/built-jar.properties" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3774" />
@@ -888,10 +762,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitHubConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="66" column="89" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/JarAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="78" column="75" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/services/PreloaderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/services/SequenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/Version.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="277">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="e#0#10689#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -911,91 +833,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitHubConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="66" column="89" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#2054#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/JarAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="78" column="75" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#2716#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-136">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/ExtractZip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="34" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="73">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitUser.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/Preloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1666">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/GitRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/FXML.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/FXMLController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/services/PreloaderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/task/DownloadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="51" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/services/SequenceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="31" selection-end-column="3" />
+        <state relative-caret-position="297">
+          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,24 +881,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        <state relative-caret-position="277">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
-            <element signature="e#2722#2723#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/koder95/eme/updater/Preloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1678">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>

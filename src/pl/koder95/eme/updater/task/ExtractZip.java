@@ -21,6 +21,7 @@ import javafx.concurrent.Task;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.text.NumberFormat;
 import java.util.Enumeration;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
@@ -30,7 +31,7 @@ import java.util.zip.ZipFile;
  * tego procesu.
  *
  * @author Kamil Jan Mularski [@koder95]
- * @version 1.0.0, 2018-10-06
+ * @version 1.0.1, 2018-10-09
  * @since 1.0.0
  */
 public class ExtractZip extends Task {
@@ -64,14 +65,13 @@ public class ExtractZip extends Task {
 
     @Override
     protected Boolean call() throws Exception {
-        updateProgress(0, 1);
+        NumberFormat pF = NumberFormat.getPercentInstance();
         updateTitle("Rozpakowywanie " + forExtract.getName());
+        updateProgress(0, 1);
         updateMessage("");
         try (ZipFile zip = new ZipFile(forExtract)) {
             updateProgress(0, forExtract.length());
-            System.out.println(zip.getName() + " +=> " + forExtract.length());
             double total = 0;
-            System.out.println("Total: 0");
             File dir = this.dir;
             if (dir == null) dir = forExtract.getParentFile();
             Enumeration<? extends ZipEntry> entries = zip.entries();
@@ -79,19 +79,15 @@ public class ExtractZip extends Task {
                 ZipEntry entry = entries.nextElement();
                 System.out.println(entry);
                 if (entry.isDirectory()) {
-                    System.out.println(entry + " is directory.");
                     if (new File(dir, entry.getName()).mkdirs()) System.out.println("Directory created!");
                 }
 
                 InputStream input = zip.getInputStream(entry);
                 int available = input.available();
-                System.out.println(entry.getName() + " +=> " + available);
                 total += available;
-                System.out.println("Total: " + total);
             }
             entries = zip.entries();
             double work = 0;
-            System.out.println("Work: 0");
             while (entries.hasMoreElements()) {
                 ZipEntry entry = entries.nextElement();
                 File outFile = new File(dir, entry.getName());
@@ -108,10 +104,10 @@ public class ExtractZip extends Task {
                 try (FileOutputStream output = new FileOutputStream(outFile)) {
                     while (input.available() > 0) {
                         int b = input.read();
-                        System.out.println("Read: " + b);
                         output.write(b);
                         output.flush();
                         updateProgress(++work, total);
+                        updateMessage(pF.format(work/total));
                     }
                 } catch (Exception ex) { ex.printStackTrace(); }
             }

@@ -1,3 +1,39 @@
 .progress-indicator .percentage {
     -fx-fill: null;
 }
+
+#eMetrykant {
+	-fx-background-color: #128080;
+}
+
+#eMetrykant-Converter {
+	-fx-background-color: #801280;
+}
+
+#eMetrykant .label {
+	-fx-fill: #a0ffff;
+	-fx-text-fill: #a0ffff;
+}
+
+#eMetrykant-Converter .label {
+	-fx-fill: #ffa0ff;
+	-fx-text-fill: #ffa0ff;
+}
+
+.program-pane .label {
+	-fx-font-family: "Bookman Old Style";
+}
+
+.program-title {
+	-fx-font-size: 14pt;
+	-fx-font-weight: bold;
+}
+
+.program-subtitle {
+	-fx-font-size: 8pt;
+	-fx-font-style: italic;
+}
+
+.program-desc {
+	-fx-font-size: 11pt;
+}

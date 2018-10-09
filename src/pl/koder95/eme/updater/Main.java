@@ -18,12 +18,15 @@ package pl.koder95.eme.updater;
 
 import com.sun.javafx.application.LauncherImpl;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.File;
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -34,7 +37,7 @@ import java.util.ResourceBundle;
  * Klasa podstawowa dla programu, rozszerza {@link javafx.application.Application}.
  *
  * @author Kamil Jan Mularski [@koder95]
- * @version 1.0.0, 2018-10-06
+ * @version 1.0.1, 2018-10-09
  * @since 1.0.0
  */
 public class Main extends Application {
@@ -100,7 +103,23 @@ public class Main extends Application {
      */
     public static void main(String[] args) {
         System.out.println("eMetrykant Updater v" + Version.get());
-        LauncherImpl.launchApplication(Main.class, Preloader.class, args);
+        if (args == null || args.length == 0)
+            LauncherImpl.launchApplication(Main.class, Preloader.class, new String[0]);
+        else if (args[0].equals("-r")) restart();
+    }
+
+    public static void restart() {
+        Platform.exit();
+        try {
+            final String javaBin = System.getProperty("java.home") + File.separator + "bin" + File.separator + "java";
+            File self = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().toURI());
+            ProcessBuilder builder = new ProcessBuilder();
+            builder.command(javaBin, "-jar", self.getName());
+            builder.start();
+        } catch (IOException | URISyntaxException e) {
+            e.printStackTrace();
+        }
+        System.exit(0);
     }
     
 }

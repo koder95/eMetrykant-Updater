@@ -3,8 +3,7 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
-
+<?import javafx.scene.text.Font?>
 <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
       prefHeight="333.0" prefWidth="600.0" spacing="10.0" stylesheets="@FXML.css" xmlns="http://javafx.com/javafx/8"
       xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.koder95.eme.updater.FXMLController">
@@ -19,15 +18,10 @@
          <Font name="Bodoni MT Condensed Bold" size="31.0"/>
       </font>
    </Label>
-   <BorderPane prefHeight="112.0" prefWidth="600.0" style="-fx-background-color: #128080;">
+   <BorderPane id="eMetrykant" prefHeight="112.0" prefWidth="600.0" styleClass="program-pane">
       <right>
-         <Label fx:id="basicVersionLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" nodeOrientation="LEFT_TO_RIGHT"
-                style="-fx-text-fill: #a0ffff;" text="v0.1.0" textFill="#808080" underline="true"
-                BorderPane.alignment="CENTER">
-            <font>
-               <Font name="Bookman Old Style Bold" size="14.0"/>
-            </font>
-         </Label>
+         <Label fx:id="basicVersionLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT"
+                nodeOrientation="LEFT_TO_RIGHT" text="v0.1.0" BorderPane.alignment="CENTER"/>
       </right>
       <left>
          <VBox alignment="CENTER" prefHeight="106.0" prefWidth="45.0" BorderPane.alignment="CENTER">
@@ -36,12 +30,19 @@
          </VBox>
       </left>
       <center>
-         <Label style="-fx-text-fill: #a0ffff;" text="eMetrykant (podstawowy program)"
-                textFill="#808080" BorderPane.alignment="CENTER">
-            <font>
-               <Font name="Bookman Old Style Bold" size="14.0"/>
-            </font>
-         </Label>
+         <HBox>
+            <VBox alignment="CENTER_LEFT">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0"/>
+               </HBox.margin>
+               <Label fx:id="basicProgressTitle"/>
+               <Label fx:id="basicProgressMessage"/>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+               <Label styleClass="program-title" text="eMetrykant" BorderPane.alignment="CENTER"/>
+               <Label layoutX="10.0" layoutY="10.0" styleClass="program-subtitle" text="(podstawowy program)"/>
+            </VBox>
+         </HBox>
       </center>
       <VBox.margin>
          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
@@ -50,30 +51,32 @@
          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
       </padding>
    </BorderPane>
-   <BorderPane fx:id="converter" layoutX="10.0" layoutY="48.0" prefHeight="112.0" prefWidth="600.0"
-               style="-fx-background-color: #801280;">
+   <BorderPane id="eMetrykant-Converter" fx:id="converter" layoutX="10.0" layoutY="48.0" prefHeight="112.0"
+               prefWidth="600.0" styleClass="program-pane">
       <left>
          <VBox alignment="CENTER" prefHeight="106.0" prefWidth="45.0" BorderPane.alignment="CENTER">
             <ProgressIndicator fx:id="convProgress" disable="true" progress="0.0"/>
          </VBox>
       </left>
       <center>
-         <Label style="-fx-text-fill: #ffa0ff;"
-                text="eMetrykant Converter (program do konwertowania danych)" textFill="#808080"
-                BorderPane.alignment="CENTER">
-            <font>
-               <Font name="Bookman Old Style Bold" size="14.0"/>
-            </font>
-         </Label>
+         <HBox>
+            <VBox alignment="CENTER_LEFT">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0"/>
+               </HBox.margin>
+               <Label fx:id="converterProgressTitle"/>
+               <Label fx:id="converterProgressMessage"/>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+               <Label styleClass="program-title" text="eMetrykant Converter" BorderPane.alignment="CENTER"/>
+               <Label layoutX="10.0" layoutY="10.0" styleClass="program-subtitle"
+                      text="(program do konwertowania danych)"/>
+            </VBox>
+         </HBox>
       </center>
       <right>
-         <Label fx:id="converterVersionLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" nodeOrientation="LEFT_TO_RIGHT"
-                style="-fx-text-fill: #ffa0ff;" text="v0.0.1" textFill="#808080" underline="true"
-                BorderPane.alignment="CENTER">
-            <font>
-               <Font name="Bookman Old Style Bold" size="14.0"/>
-            </font>
-         </Label>
+         <Label fx:id="converterVersionLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT"
+                nodeOrientation="LEFT_TO_RIGHT" text="v0.0.1" BorderPane.alignment="CENTER"/>
       </right>
       <VBox.margin>
          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
@@ -87,7 +90,6 @@
       <opaqueInsets>
          <Insets/>
       </opaqueInsets>
-      <Button defaultButton="true" mnemonicParsing="false" onAction="#checkVersions" text="Sprawdź wersje"/>
       <Button fx:id="update" disable="true" mnemonicParsing="false" onAction="#update" text="Aktualizuj"/>
    </HBox>
 </VBox>

@@ -26,13 +26,14 @@ import java.net.URLConnection;
 import java.nio.channels.Channels;
 import java.nio.channels.FileChannel;
 import java.nio.channels.ReadableByteChannel;
+import java.text.NumberFormat;
 
 /**
  * Klasa rozszerza {@link javafx.concurrent.Task} i umożliwia pobranie
  * do określonego folderu archiwum ZIP, śledząc proces pobierania.
  *
  * @author Kamil Jan Mularski [@koder95]
- * @version 1.0.0, 2018-10-06
+ * @version 1.0.1, 2018-10-09
  * @since 1.0.0
  */
 public class DownloadFile extends Task<File> {
@@ -60,6 +61,7 @@ public class DownloadFile extends Task<File> {
 
     @Override
     protected File call() throws Exception {
+        NumberFormat pF = NumberFormat.getPercentInstance();
         String title = "Pobieranie " + name;
         updateTitle(title);
         updateProgress(0, 1);
@@ -77,16 +79,9 @@ public class DownloadFile extends Task<File> {
             long workDone = 0;
             long count = totalWork > 100? totalWork / 100: 1;
             while (workDone < totalWork) {
-                System.out.println("URL: " + url);
-                System.out.println("Pobieranie w toku... Do pobrania " + totalWork + "B.");
-                System.out.println(channel.position());
                 long transferred = channel.transferFrom(rbc, workDone, count);
-                updateTitle(title + ". Pobrano " + workDone + "B z " + totalWork + "B");
-                System.out.println(title + ". Transferred " + transferred + "B");
                 workDone += transferred;
-                double progress = 100 * ((double) workDone)/totalWork;
-                System.out.println(progress + "%");
-                updateMessage(progress + "%");
+                updateMessage(pF.format((double) workDone/totalWork));
                 updateProgress(workDone, totalWork);
             }
             channel.force(true);
